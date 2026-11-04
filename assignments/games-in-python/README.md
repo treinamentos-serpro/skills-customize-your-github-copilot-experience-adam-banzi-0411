@@ -1,19 +1,35 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Tarefa: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Pratique strings, listas, seleção aleatória, laços de repetição e condicionais ao criar um jogo da Forca em que o jogador tenta adivinhar uma palavra antes de esgotar as tentativas.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Preparação da palavra e do jogo
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Use a lista de palavras fornecida no código inicial para escolher uma palavra secreta e preparar as variáveis que representam o estado do jogo.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra da lista `words`.
+- Inicializar uma coleção para registrar as letras já tentadas e um contador de palpites incorretos.
+- Definir o limite de palpites incorretos permitido.
+- Exibir o progresso da palavra, mostrando as letras ainda não adivinhadas como `_` e as letras corretas nas posições correspondentes.
+
+### 🛠️ Palpites e resultado da partida
+
+#### Descrição
+Implemente o loop principal para receber palpites, atualizar o estado do jogo e encerrar a partida quando a palavra for descoberta ou o limite de erros for atingido.
+
+#### Requisitos
+O programa concluído deve:
+
+- Solicitar ao jogador um palpite de letra e informar se ela aparece na palavra secreta.
+- Atualizar e exibir o progresso após cada palpite.
+- Contar palpites incorretos sem ultrapassar o limite definido.
+- Encerrar a partida quando todas as letras da palavra forem adivinhadas ou quando o limite de palpites incorretos for atingido.
+- Exibir uma mensagem indicando vitória ou derrota; em caso de derrota, revelar a palavra secreta.
