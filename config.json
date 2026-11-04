@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "unittest-basics",
+      "title": "Automated Testing with unittest",
+      "description": "Practice writing and running Python unit tests with the standard-library unittest module.",
+      "path": "assignments/unittest-basics",
+      "dueDate": "2026-11-11",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
